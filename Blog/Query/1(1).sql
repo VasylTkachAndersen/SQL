@@ -1,0 +1,1 @@
+select count(blog_posts.id) from blog_posts;
