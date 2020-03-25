@@ -39,7 +39,7 @@ CREATE TABLE `tweets` (
 
 LOCK TABLES `tweets` WRITE;
 /*!40000 ALTER TABLE `tweets` DISABLE KEYS */;
-INSERT INTO `tweets` VALUES (1,'Tweet text 1','2020-11-11 22:20:00',1),(2,'Tweet text 2','2020-11-11 23:21:00',1),(3,'Tweet test 3','2020-11-12 23:21:00',2),(4,'Tweet text 4','2020-11-12 23:20:00',3),(5,'Tweet text 5','2020-11-13 22:24:00',4),(6,'Tweet text 6','2020-11-13 22:24:00',2),(7,'Tweet text 7','2020-11-14 22:25:00',3);
+INSERT INTO `tweets` VALUES (1,'Tweet text 1','2020-03-25 01:20:00',1),(2,'Tweet text 2','2020-03-24 01:21:00',1),(3,'Tweet test 3','2020-03-25 01:09:00',2),(4,'Tweet text 4','2020-03-24 23:20:00',3),(5,'Tweet text 5','2020-03-24 22:24:00',4),(6,'Tweet text 6','2020-03-24 00:24:00',2),(7,'Tweet text 7','2020-03-24 22:25:00',3);
 /*!40000 ALTER TABLE `tweets` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
