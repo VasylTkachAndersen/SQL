@@ -1,3 +1,3 @@
-SELECT users.id, users.name, group_concat(followers.follower_id) from users
-JOIN followers on users.id = followers.to_follow_id
+SELECT users.id, users.name from users
+Left JOIN followers on users.id = followers.to_follow_id  where followers.to_follow_id is not null
 GROUP BY users.id;

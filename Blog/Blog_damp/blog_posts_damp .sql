@@ -38,7 +38,7 @@ CREATE TABLE `blog_posts` (
 
 LOCK TABLES `blog_posts` WRITE;
 /*!40000 ALTER TABLE `blog_posts` DISABLE KEYS */;
-INSERT INTO `blog_posts` VALUES (1,'JAVA','JAVA IS RULE','2019-09-03 13:00:00','Black Boy'),(2,'JAVA SCRIPT','WTF??!?!?!','2014-08-21 08:00:00','TRUE BOY'),(3,'TOP COMPANY','TOP 25 company in Ukrain','2012-08-20 18:00:00','DOU.UA'),(4,'AQA courses','JAVA IS RULE','2020-01-01 00:22:00','Vovan'),(5,'JS is good','WTF?!?!??','2018-08-16 22:22:22','MARAZMATIK'),(6,'YA Humonitariy','Selo AND PEOPLE','2018-08-16 22:22:22','STEPAN');
+INSERT INTO `blog_posts` VALUES (1,'JAVA','JAVA IS RULE','2019-09-03 13:00:00','Black Boy'),(2,'JAVA SCRIPT','WTF??!?!?!','2020-02-21 08:00:00','TRUE BOY'),(3,'TOP COMPANY','TOP 25 company in Ukrain','2020-03-24 00:00:00','DOU.UA'),(4,'AQA courses','JAVA IS RULE','2020-03-24 00:22:00','Vovan'),(5,'JS is good','WTF?!?!??','2020-03-22 22:22:22','MARAZMATIK'),(6,'YA Humonitariy','Selo AND PEOPLE','2020-03-24 22:22:22','STEPAN');
 /*!40000 ALTER TABLE `blog_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
